@@ -8,11 +8,7 @@
     <link href="main97f0b846401944a88b6a.css" rel="stylesheet" />
   </head>
 
-  <script>
-    const id = localStorage.getItem("user");
-    const link = document.getElementById("profile");
-    link.setAttribute("href", `https://server-bp9a.onrender.com/profile/${id}`);
-  </script>
+  
   <body>
     <header class="bg-color-gray">
       <div class="container">
@@ -415,5 +411,10 @@
         </div>
       </div>
     </div>
+    <script>
+        const id = localStorage.getItem("user");
+        const link = document.getElementById("profile");
+        link.setAttribute("href", `https://server-bp9a.onrender.com/profile/${id}`);
+      </script>
   </body>
 </html>
