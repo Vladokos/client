@@ -8,7 +8,6 @@
     <link href="main97f0b846401944a88b6a.css" rel="stylesheet" />
   </head>
 
-  
   <body>
     <header class="bg-color-gray">
       <div class="container">
@@ -30,7 +29,9 @@
                 <a href="https://server-bp9a.onrender.com/services">Услуги</a>
               </li>
               <li>
-                <a id="profile" href="https://server-bp9a.onrender.com/profile/">Профиль</a>
+                <a id="profile" href="https://server-bp9a.onrender.com/profile/"
+                  >Профиль</a
+                >
               </li>
             </ul>
           </nav>
@@ -412,9 +413,12 @@
       </div>
     </div>
     <script>
-        const id = localStorage.getItem("user");
-        const link = document.getElementById("profile");
-        link.setAttribute("href", `https://server-bp9a.onrender.com/profile/${id}`);
-      </script>
+      const id = localStorage.getItem("user");
+      const link = document.getElementById("profile");
+      link.setAttribute(
+        "href",
+        `https://server-bp9a.onrender.com/profile/${id}`
+      );
+    </script>
   </body>
 </html>
